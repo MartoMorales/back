@@ -1,0 +1,36 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="CopaAmerica.css">
+  
+    </head>
+    <body>
+    <input type="text" name="agregar" id="agregar" placeholder="Agregar Jugador">
+    <input type="text" name="Número" id= "numero" placeholder="Ingresar dorsal">
+    <button type="button" id="botondeagregar" onclick="Agregar()" disabled >Agregar</button>
+    <button type="button" id="limpiar" onclick="Limpiar()">Limpiar</button>
+    <button type="button" id="finalizar" onclick= "finalizar()">Finalizar</button>
+    <select name="posicion" id="posicion">Posición
+        <option value="arquero">Arquero</option>
+        <option value="defensor">Defensor</option>
+        <option value="mediocampista">Mediocampista</option>
+        <option value="delantero">Delantero</option>
+    </select>
+    <h2>Arqueros</h2>
+    <ul id="arquero"></ul>
+    <h2>Defensores</h2>
+    <ul id= "defensor"></ul>
+    <h2>Mediocampistas</h2>
+    <ul id= "mediocampista"></ul>
+    <h2>Delanteros</h2>
+    <ul id= "delantero"></ul>
+  
+    <script src="CopaAmerica.js"></script>
+    <script src="CopaAmerica.css"></script>
+    </body>
+
+    </html>
