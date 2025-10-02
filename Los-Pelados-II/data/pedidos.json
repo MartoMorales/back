@@ -1,0 +1,18 @@
+[
+  {
+    "producto": "1/4 kilo",
+    "sabores": [
+      "Dulce de Leche Granizado",
+      "Dulce de Leche Los Pelados",
+      "Crema Irlandesa"
+    ],
+    "nombre": "Martin Elian"
+  },
+  {
+    "producto": "cucurucho",
+    "sabores": [
+      "Marroc"
+    ],
+    "nombre": "Marto"
+  }
+]
